@@ -1,6 +1,5 @@
 const moment = require('moment');
 const date = moment().format('DD/MM/YYYY HH:mm');
-const PORT = 2000;
 
 
 require('http')
@@ -10,4 +9,4 @@ require('http')
     });
     res.end(`<h1>Нюхалов Денис</h1><h2>${date}</h2>`);
  })
-.listen(PORT || process.env.PORT); //process.env.PORT
+.listen(process.env.PORT); //process.env.PORT
