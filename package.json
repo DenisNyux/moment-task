@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "moment": "^2.25.3"
   }
 }
