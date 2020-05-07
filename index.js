@@ -9,4 +9,4 @@ require('http')
     });
     res.end(`<h1>Нюхалов Денис</h1><h2>${date}</h2>`);
  })
-.listen(2000); //process.env.PORT || PORT
+.listen(process.env.PORT || PORT); 
