@@ -1,0 +1,11 @@
+{
+  "name": "heroku2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DenisNyux/moment-task.git",
+  "author": "Denis Nyukhalov <denisn2000@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
